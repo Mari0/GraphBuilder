@@ -1,0 +1,14 @@
+{
+  "name": "JSONPath",
+  "homepage": "https://github.com/s3u/JSONPath",
+  "version": "0.16.0",
+  "_release": "0.16.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.16.0",
+    "commit": "5bfc40051dc6b1caaeef3f072fbdedf7086ba747"
+  },
+  "_source": "https://github.com/s3u/JSONPath.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/s3u/JSONPath.git"
+}

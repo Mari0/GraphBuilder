@@ -1,0 +1,34 @@
+define(['jquery',
+        'modals/CreateProjectModal',
+        'modals/AddMappingModal',
+        'text!tpl/navbar/projectTab.html'
+    ],
+    /**@lends ProjectTab*/
+    function($, CreateProjectModal, AddMappingModal, htmlProjectTab) {
+
+        function ProjectTab() {
+            var $projectTab = $(htmlProjectTab);
+            var $contentPanel = $projectTab.find('.panel-body');
+
+            $projectTab.find('#btnCreateProject').click(function() {
+                CreateProjectModal();
+            });
+
+            $contentPanel.append($('<h4 class="projectName">').text('No Project!'));
+
+            var $mappingList = $('<div class="list-group" id="lstMappings"></div>');
+            $contentPanel.append($mappingList);
+
+            //Add Mapping button
+            var $addMappingButton = $('<button class="btn btn-default" id="btnAddMapping" style="display: none"><span class="glyphicon glyphicon-plus"></span></button>');
+            $addMappingButton.click(function() {
+                AddMappingModal();
+            });
+            $contentPanel.append($addMappingButton);
+
+            $('#mc_navbar_content').append($projectTab);
+
+        }
+
+        return ProjectTab;
+    });

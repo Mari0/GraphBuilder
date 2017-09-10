@@ -1,0 +1,7 @@
+{
+	"url":"http://mariorose.bitbucket.org/",
+	"source":"test_data/al_arangodb.json",
+	"ontology":"test_data/JsonOntology/startupUniverse.json",
+    "import":"test_data//map_test/cb.json",
+    "project":"test_data/project/cbtestproject.json"
+}
