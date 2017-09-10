@@ -1,0 +1,36 @@
+{
+  "name": "GraphBuilder",
+  "version": "0.0.3",
+  "authors": [
+    "Mario Rosenstengel"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery-contextMenu": "https://github.com/medialize/jQuery-contextMenu.git",
+    "jsoneditor": "~3.1.2",
+    "jszip": "Stuk/jszip#~2.4.0",
+    "requirejs": "https://github.com/jrburke/requirejs.git#~2.1.15",
+    "JSONPath": "https://github.com/s3u/JSONPath.git",
+    "bootstrap": "https://github.com/twbs/bootstrap.git#~3.2.0",
+    "require-css": "~0.1.7",
+    "requirejs-text": "~2.0.10",
+    "requirejs-promise": "*",
+    "jquery-ui": "~1.11.4",
+    "jspanel": "~2.5.2",
+    "vis": "~4.3.0",
+    "lodash": "~3.10.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.3",
+    "chai": "~3.3.0",
+    "sinonjs": "~1.17.1"
+  }
+}
