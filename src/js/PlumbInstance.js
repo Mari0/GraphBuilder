@@ -20,7 +20,7 @@ define(['jquery', 'jsPlumb'], function ($) {
                     }
                 }]
             ],
-            Container: $('#' + containerId)[0]
+            Container: $(containerId)[0]
 
         });
     }

@@ -42,7 +42,7 @@ define(['jquery', 'lodash', 'Global', 'jsPlumb'], function($, _, Global) {
                     id: 'edgeTypeList'
                 }]
             ],
-            Container: $('#' + containerId)[0]
+            Container: $(containerId)[0]
 
         });
     }

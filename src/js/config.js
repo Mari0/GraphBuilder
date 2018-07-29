@@ -27,7 +27,7 @@ requirejs.config({
         text: './../components/requirejs-text/text',
         tpl: './../templates',
         jsPanel: './../components/jspanel/source/jquery.jspanel.min',
-        jsPlumb: './../components/jsPlumb/dist/js/jsPlumb-2.0.5-min'
+        jsPlumb: './../components/jsPlumb/dist/js/jsPlumb-2.0.7-min'
     },
     map: {
         '*': {

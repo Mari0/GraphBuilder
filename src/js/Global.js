@@ -22,7 +22,7 @@ define(['jquery'], /**@lends Global*/
                 HEIGHT: 20,
                 OFFSET: 5
             },
-            TEST_MODE: true
+            TEST_MODE: false
         };
 
         Global.JsonPropertyConfig = {
